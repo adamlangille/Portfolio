@@ -1,0 +1,40 @@
+/* https://colorhunt.co/palette/b5d5c5b08bbbeca869f5f5dc */
+/* https://colorhunt.co/palette/ada2ffc0deffffe5f1fff8e1 */
+/* V Active pallete V */
+/* https://colorhunt.co/palette/f0e9d2e6ddc4678983181d31 */
+
+/* reference site: https://mattfarley.ca/ */
+
+body {
+    background-color: #E6DDC4;
+}
+#title {
+    background-color: #E6DDC4;
+    color: #181D31;
+    padding: 5em 3em;
+    text-align: center;
+}
+
+#about {
+    background-color: #E6DDC4;
+    color: #181D31;
+    padding: 5em 3em;
+}
+
+
+.nav {
+    background-color: #F0E9D2;
+    border-color: #E6DDC4 !important;
+}
+.nav-link {
+    color: #181D31;  
+    background-color: #E6DDC4;
+}
+.nav-link:hover {
+    color: #678983;
+}
+
+.active{
+    background-color: #E6DDC4 !important;
+    border-color: #E6DDC4 !important;
+}
