@@ -5,9 +5,16 @@
 
 /* reference site: https://mattfarley.ca/ */
 
+
 body {
+    font-family: 'Rubik', sans-serif;
     background-color: #E6DDC4;
 }
+
+h1, h2 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
 #title {
     background-color: #E6DDC4;
     color: #181D31;
@@ -21,13 +28,19 @@ body {
     padding: 5em 3em;
 }
 
-
+#footer {
+    text-align: center;
+    background-color: #181D31;
+    color:#F0E9D2;
+    padding: 10px;
+}
 .nav {
-    background-color: #F0E9D2;
+    background-color: #181D31;
     border-color: #E6DDC4 !important;
 }
+
 .nav-link {
-    color: #181D31;  
+    color: #F0E9D2;  
     background-color: #E6DDC4;
 }
 .nav-link:hover {
@@ -37,4 +50,21 @@ body {
 .active{
     background-color: #E6DDC4 !important;
     border-color: #E6DDC4 !important;
+    color: #181D31; 
+}
+
+.main-title{
+    font-family: 'Caveat', cursive;
+    font-size: 6em;
+}
+
+.social-icon {
+    color: #F0E9D2;
+    font-size: 1.5em;
+    margin: auto 5px;
+}
+
+.copyright {
+    padding-top: 5px;
+    padding-bottom: 0;
 }
