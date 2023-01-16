@@ -22,12 +22,6 @@ h1, h2 {
     text-align: center;
 }
 
-#about {
-    background-color: #E6DDC4;
-    color: #181D31;
-    padding: 5em 3em;
-}
-
 #footer {
     text-align: center;
     background-color: #181D31;
@@ -42,6 +36,7 @@ h1, h2 {
 .nav-link {
     color: #F0E9D2;  
     background-color: #E6DDC4;
+    font-size: 2em;
 }
 .nav-link:hover {
     color: #678983;
@@ -53,9 +48,24 @@ h1, h2 {
     color: #181D31; 
 }
 
+.title-text {
+    padding: 0;
+    margin: 0;
+}
+
 .main-title{
     font-family: 'Caveat', cursive;
     font-size: 6em;
+}
+
+.about {
+    padding: 5em 3em;
+    margin: 3em;
+}
+
+.title-image {
+    padding: 0;
+    border-radius: 40%;
 }
 
 .social-icon {
