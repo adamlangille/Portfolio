@@ -26,7 +26,8 @@ h1, h2 {
     text-align: center;
     background-color: #181D31;
     color:#F0E9D2;
-    padding: 10px;
+    padding-top: 7px;
+    padding-bottom: 0;
 }
 .nav {
     background-color: #181D31;
@@ -59,22 +60,25 @@ h1, h2 {
 }
 
 .about {
-    padding: 5em 3em;
-    margin: 3em;
+    padding: 5em 1em;
+    margin: 1em;
+    text-align: center;
 }
 
 .title-image {
-    padding: 0;
+    padding: 5px;
     border-radius: 40%;
+    max-width: 30em;
 }
 
 .social-icon {
     color: #F0E9D2;
-    font-size: 1.5em;
-    margin: auto 5px;
+    font-size: 1.2em;
+    margin: auto 8px;
 }
 
 .copyright {
+    font-size: .8em;
     padding-top: 5px;
     padding-bottom: 0;
 }
