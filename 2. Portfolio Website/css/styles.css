@@ -13,9 +13,19 @@ body {
 
 h1, h2 {
     font-family: 'Josefin Sans', sans-serif;
+    padding-top: .5em;
 }
 
-#title {
+a {
+    color: #3d504c;
+    
+}
+
+a:hover {
+    color:#678983;
+}
+
+#title, #contact, #audio, #programming {
     background-color: #E6DDC4;
     color: #181D31;
     padding: 5em 3em;
@@ -29,6 +39,7 @@ h1, h2 {
     padding-top: 7px;
     padding-bottom: 0;
 }
+
 .nav {
     background-color: #181D31;
     border-color: #E6DDC4 !important;
@@ -60,8 +71,8 @@ h1, h2 {
 }
 
 .about {
-    padding: 5em 1em;
-    margin: 1em;
+    padding: 2.5em .5em;
+    margin: .5em;
     text-align: center;
 }
 
@@ -69,6 +80,15 @@ h1, h2 {
     padding: 5px;
     border-radius: 40%;
     max-width: 30em;
+}
+
+.contact-link {
+    padding: 1em .5em;
+}
+
+.programming-icon {
+    font-size: 9em;
+    color:#181D31;
 }
 
 .social-icon {
