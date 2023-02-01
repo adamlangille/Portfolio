@@ -28,7 +28,7 @@ a:hover {
 #title, #contact, #audio, #programming {
     background-color: #E6DDC4;
     color: #181D31;
-    padding: 5em 3em;
+    padding: 5em 2em;
     text-align: center;
 }
 
@@ -36,7 +36,7 @@ a:hover {
     text-align: center;
     background-color: #181D31;
     color:#F0E9D2;
-    padding-top: 7px;
+    padding-top: 1em;
     padding-bottom: 0;
 }
 
@@ -60,6 +60,40 @@ a:hover {
     color: #181D31; 
 }
 
+.dropdown-menu {
+    background-color: #E6DDC4;
+    color:#181D31;
+    font-size: 2em;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-menu a:hover {
+    background-color: #F0E9D2;
+    color: #3d504c;
+}
+
+.dropdown-toggle[aria-expanded="true"] {
+    color:#678983;
+}
+
+.dropdown-item.active {
+    color:#F0E9D2;
+    background-color: #9b9788 !important;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-item.active:hover {
+    color:#F0E9D2;
+}
+
+.dropdown-divider {
+    padding: 0;
+    margin: 0;
+}
+
 .title-text {
     padding: 0;
     margin: 0;
@@ -76,14 +110,26 @@ a:hover {
     text-align: center;
 }
 
+.education {
+    text-align: left;
+}
+
 .title-image {
-    padding: 5px;
+    padding: 1em;
     border-radius: 40%;
     max-width: 30em;
 }
 
 .contact-link {
     padding: 1em .5em;
+}
+
+.audio-embed {
+    padding: .5em;
+}
+
+.youtube-embed {
+    padding: 2em;
 }
 
 .programming-icon {
@@ -94,11 +140,11 @@ a:hover {
 .social-icon {
     color: #F0E9D2;
     font-size: 1.2em;
-    margin: auto 8px;
+    margin: auto .5em;
 }
 
 .copyright {
     font-size: .8em;
-    padding-top: 5px;
+    padding-top: 1em;
     padding-bottom: 0;
 }
