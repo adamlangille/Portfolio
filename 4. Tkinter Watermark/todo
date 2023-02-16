@@ -1,0 +1,11 @@
+reqs:
+    - GUI
+    - upload an image
+    - add watermark
+        - logo
+        - text
+    - download result photo
+    
+references:
+    https://pypi.org/project/Pillow/
+    https://docs.python.org/3/library/tkinter.html
