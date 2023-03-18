@@ -1,0 +1,19 @@
+TODO
+
+User Entry:
+- spacebar clears box and compares word, moves to next word
+
+Word Display:
+- display 3 lines of five words
+- highlight current Word
+- scroll after second line is done
+- csv of words to randomly choose from?
+
+Timer
+- start after first key is typed
+- 60 seconds
+- when done, hide words and show score, and restart button
+
+Score
+- corrected characters per minute (characters only in correctly typed words)
+- Words per minute = correctd CPM / 5
